@@ -33,7 +33,7 @@ npm run start
 :update
 @echo Updating CrepePlus... You will return to the menu once the update is completed.
 @RD /S /Q "%CD%\CrepePackage"
-powershell -Command "Invoke-WebRequest https://github.com/Midrooms/CrepePackages/raw/main/CrepePackage.zip -Outfile CrepePackage.zip"
+powershell -Command "Invoke-WebRequest https://ps.rrryfoo.cf/CrepePackage.zip -Outfile CrepePackage.zip"
 powershell -Command "Expand-Archive -Path CrepePackage.zip CrepePackage -Force"
 DEL CrepePackage.zip
 cd %cd%\CrepePackage\
@@ -53,7 +53,7 @@ echo Press any key to download the instructions and also included Fiddler Classi
 echo The files will be located in "CrepePlus-beta"
 echo If you don't want to download the files, close the manager and open it again.
 pause
-powershell -Command "Invoke-WebRequest https://github.com/Midrooms/CrepePackages/raw/main/CrepePlus-beta.zip -Outfile CrepePlus-beta.zip"
+powershell -Command "Invoke-WebRequest https://ps.rrryfoo.cf/CrepePlus-beta.zip -Outfile CrepePlus-beta.zip"
 powershell -Command "Expand-Archive -Path CrepePlus-beta.zip CrepePlus-beta -Force"
 DEL CrepePlus-beta.zip
 cls
