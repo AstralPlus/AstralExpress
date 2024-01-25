@@ -32,10 +32,10 @@ def button_callback3():
     app.destroy()
 
 
-button1 = customtkinter.CTkButton(app, text="Start server & enable proxy", command=button_callback3, fg_color="#C6829B", hover_color="#843E58")
+button1 = customtkinter.CTkButton(app, text="Start server & enable proxy", command=button_callback1, fg_color="#C6829B", hover_color="#843E58")
 button1.pack(pady=5)
 
-button2 = customtkinter.CTkButton(app, text="Build/repair server", command=button_callback3, fg_color="#7DABE6", hover_color="#37506F")
+button2 = customtkinter.CTkButton(app, text="Build/repair server", command=button_callback2, fg_color="#7DABE6", hover_color="#37506F")
 button2.pack(pady=5)
 
 button3 = customtkinter.CTkButton(app, text="Stop proxy & exit", command=button_callback3, fg_color="#A60003", hover_color="dark red")
