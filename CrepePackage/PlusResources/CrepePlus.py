@@ -2,6 +2,13 @@ import customtkinter
 import subprocess
 import tkinter as tk
 import os
+from pypresence import Presence
+rpc = Presence(client_id="1200190629897052181")
+rpc.connect()
+rpc.update(large_image="plus", details="Private server manager for SR!", state="In launcher")
+
+
+
 
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("blue")
@@ -23,9 +30,11 @@ proxyDir = os.path.join(current_dir, 'proxy')
 
 def button_callback1():
     subprocess.run(f'cmd /c start cmd /k "cd /d {scriptsDir} && start.bat"', shell=True)
+    rpc.update(large_image="plus", details="In-game", state="Playing 1.6.0")
 
 def button_callback2():
     subprocess.run(f'cmd /c start cmd /k "cd /d {scriptsDir} && build.bat"', shell=True)
+
 
 def button_callback3():
     subprocess.run(f'cmd /c start cmd /k "cd /d {proxyDir} && stopProxy.bat"', shell=True)
