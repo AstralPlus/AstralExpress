@@ -14,7 +14,8 @@ customtkinter.set_default_color_theme("blue")
 app = customtkinter.CTk()
 app.geometry("325x160")
 app.configure(bg="#242424")
-app.resizable(False, False)
+app.resizable(True, True)
+# endernon was here
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 app.wm_iconbitmap(os.path.join(current_dir, 'plus.ico'))
