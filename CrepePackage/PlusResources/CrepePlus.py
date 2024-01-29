@@ -7,7 +7,6 @@ rpc = Presence(client_id="1200190629897052181")
 rpc.connect()
 rpc.update(large_image="plus", details="Private server manager for SR!", state="In launcher")
 
-
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("blue")
 
@@ -19,7 +18,7 @@ app.resizable(False, False)
 current_dir = os.path.dirname(os.path.abspath(__file__))
 app.wm_iconbitmap(os.path.join(current_dir, 'plus.ico'))
 app.wm_title("CrepePlus v2.1")
-title = tk.Label(app, text="Welcome to CrepePlus", font=("Arial", 32, "bold"), bg="#242424", fg="white")
+title = tk.Label(app, text="Welcome to CrepePlus", font=("Arial", 20, "bold"), bg="#242424", fg="white")
 title.pack()
 
 scriptsDir = os.path.join(current_dir, 'scripts')
@@ -32,9 +31,11 @@ def button_callback1():
 def button_callback2():
     subprocess.run(f'cmd /c start cmd /k "cd /d {scriptsDir} && build.bat"', shell=True)
 
+
 def button_callback3():
     subprocess.run(f'cmd /c start cmd /k "cd /d {proxyDir} && stopProxy.bat"', shell=True)
     app.destroy()
+
 
 button1 = customtkinter.CTkButton(app, text="Start server & enable proxy", command=button_callback1, fg_color="#C6829B", hover_color="#843E58")
 button1.pack(pady=5)
