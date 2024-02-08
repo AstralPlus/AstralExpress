@@ -11,8 +11,7 @@ rpc.update(
     details="Space anime game server tool!",
     state="In launcher",
     buttons=[
-        {"label": "Join us!", "url": "https://discord.gg/dVcRarJBx4"},
-        {"label": "Project Github", "url": "https://github.com/AstralPlus/AstralExpress"}
+        {"label": "Github", "url": "https://github.com/AstralPlus/AstralExpress"}
     ]
 )
 
