@@ -9,7 +9,6 @@ rpc.connect()
 rpc.update(
     large_image="plus",
     details="Space anime game server tool!",
-    state="In launcher",
     buttons=[
         {"label": "Github", "url": "https://github.com/AstralPlus/AstralExpress"}
     ]
@@ -34,7 +33,6 @@ current_dir = os.path.dirname(os.path.realpath(__file__))
 
 def button_callback1():
     subprocess.run(f'cmd /c start cmd /k "cd /d {current_dir} && scripts.bat 1"', shell=True)
-rpc.update(state="Playing 1.6.0")
 
 def button_callback2():
     subprocess.run(f'cmd /c start cmd /k "cd /d {current_dir} && scripts.bat 2"', shell=True)
