@@ -1,55 +1,107 @@
-import customtkinter
-import subprocess
+from customtkinter import *
 import tkinter as tk
+import subprocess
+import configparser
 import os
+import time
 from pypresence import Presence
 
 rpc = Presence(client_id="1200190629897052181")
 rpc.connect()
 rpc.update(
     large_image="plus",
-    details="Space anime game server tool!",
+    details="Space anime game server tool",
     buttons=[
         {"label": "Github", "url": "https://github.com/AstralPlus/AstralExpress"}
     ]
 )
 
-
-customtkinter.set_appearance_mode("dark")
-customtkinter.set_default_color_theme("blue")
-
-app = customtkinter.CTk()
-app.geometry("325x160")
-app.configure(bg="#242424")
-app.resizable(False, False)
-
 current_dir = os.path.dirname(os.path.abspath(__file__))
+
+app = CTk()
+app.geometry("355x255")
+
 app.wm_iconbitmap(os.path.join(current_dir, 'astral.ico'))
-app.wm_title("Astral Express v2.1")
-title = tk.Label(app, text="Welcome to Astral Express", font=("Arial", 20, "bold"), bg="#242424", fg="white")
-title.pack()
+set_default_color_theme("blue")
+app.wm_title("Astral Express v2.2")
 
-current_dir = os.path.dirname(os.path.realpath(__file__))
+tabview = CTkTabview(master=app)
+tabview.pack(padx=0, pady=0)
+tabview.add("Game")
+tabview.add("Settings")
 
-def button_callback1():
-    subprocess.run(f'cmd /c start cmd /k "cd /d {current_dir} && scripts.bat 1"', shell=True)
+launch_game = tk.BooleanVar()
+game_path = tk.StringVar()
+launch_game = tk.BooleanVar()
+game_path = tk.StringVar()
+def launch_program():
+    script_dir = os.path.dirname(os.path.realpath(__file__))
 
-def button_callback2():
-    subprocess.run(f'cmd /c start cmd /k "cd /d {current_dir} && scripts.bat 2"', shell=True)
+    scripts_path = os.path.join(script_dir, 'scripts.bat')
+
+    subprocess.Popen(f'"{scripts_path}" 1', shell=True)
+
+    if launch_game.get() and game_path.get():
+        time.sleep(5)
+        game_path_full = game_path.get()
+        subprocess.Popen([game_path_full], shell=True)
 
 
-def button_callback3():
-    subprocess.run(f'cmd /c start cmd /k "cd /d {current_dir} && scripts.bat 3"', shell=True)
-    app.destroy()
+
+button = CTkButton(master=tabview.tab("Game"), text="Start server", command=launch_program)
+button.pack(padx=10, pady=10)
+
+def update_button_text(*args):
+    if launch_game.get() and game_path.get():
+        button.configure(text="Start server & launch game")
+    else:
+        button.configure(text="Start server")
+
+launch_game.trace_add("write", update_button_text)
+game_path.trace_add("write", update_button_text)
+
+label1 = CTkLabel(master=tabview.tab("Settings"), text="Launch game with server")
+label1.grid(row=0, column=0, sticky='w', padx=10, pady=10)
+checkbox = CTkCheckBox(master=tabview.tab("Settings"), text="", variable=launch_game)
+checkbox.grid(row=0, column=1, sticky='e', padx=10, pady=10)
+
+label2 = CTkLabel(master=tabview.tab("Settings"), text="Game Path")
+label2.grid(row=1, column=0, sticky='w', padx=10, pady=0)
+textbox = CTkEntry(master=tabview.tab("Settings"), textvariable=game_path)
+textbox.grid(row=1, column=1, sticky='e', padx=10, pady=0)
+
+def update_game_path_visibility(*args):
+    if launch_game.get():
+        label2.grid()
+        textbox.grid()
+    else:
+        label2.grid_remove()
+        textbox.grid_remove()
+
+launch_game.trace_add("write", update_game_path_visibility)
+
+def save_settings():
+    config = configparser.ConfigParser()
+    config['DEFAULT'] = {'LaunchGame': launch_game.get(),
+                         'GamePath': game_path.get()}
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    settings_path = os.path.join(script_dir, 'settings.ini')
+    with open(settings_path, 'w') as configfile:
+        config.write(configfile)
+
+save_button = CTkButton(master=tabview.tab("Settings"), text="Save Settings", command=save_settings)
+save_button.grid(row=2, column=0, columnspan=2, padx=10, pady=10)
 
 
-button1 = customtkinter.CTkButton(app, text="Start server & enable proxy", command=button_callback1, fg_color="#C6829B", hover_color="#843E58")
-button1.pack(pady=5)
+config = configparser.ConfigParser()
+script_dir = os.path.dirname(os.path.realpath(__file__))
+settings_path = os.path.join(script_dir, 'settings.ini')
+config.read(settings_path)
+if 'DEFAULT' in config:
+    launch_game.set(config['DEFAULT'].getboolean('LaunchGame', False))
+    game_path.set(config['DEFAULT'].get('GamePath', ''))
 
-button2 = customtkinter.CTkButton(app, text="Build/repair server", command=button_callback2, fg_color="#7DABE6", hover_color="#37506F")
-button2.pack(pady=5)
-
-button3 = customtkinter.CTkButton(app, text="Stop proxy & exit", command=button_callback3, fg_color="#A60003", hover_color="dark red")
-button3.pack(pady=5)
+update_button_text()
+update_game_path_visibility()
 
 app.mainloop()

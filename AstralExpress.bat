@@ -1,6 +1,5 @@
 @echo off
-cd %CD%\Resources\Astral
-
+cd %CD% \Resources\Astral
 python -c "import pkg_resources" 2> nul
 if errorlevel 1 (
     echo "Python is not installed. Please install Python first."
