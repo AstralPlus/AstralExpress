@@ -18,6 +18,7 @@ goto end
 :2
 cd..
 cd %CD%\LunarCore
+del /F /Q LunarCore.jar
 gradlew jar
 pause
 exit
