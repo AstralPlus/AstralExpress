@@ -1,0 +1,1480 @@
+{
+  "10001": {
+    "ScriptID": 10001,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1001
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1003
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1002
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Sad"
+    ],
+    "MissingDialogueID": 1004,
+    "FullDialogueID": 1005,
+    "LockDialogueID": 1006
+  },
+  "10108": {
+    "ScriptID": 10108,
+    "DefaultEmoType": "Sad",
+    "RaidID": 43305,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1010804
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1010805
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1010806
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1010807
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Lock",
+      "UnLock",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Sad"
+    ],
+    "MissingDialogueID": 1010801,
+    "LockDialogueID": 1010802,
+    "UnLockDialogueID": 1010803
+  },
+  "13103": {
+    "ScriptID": 13103,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1310301
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1310302
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1310303
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1310304
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13105": {
+    "ScriptID": 13105,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1310501
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1310502
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1310503
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1310504
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13108": {
+    "ScriptID": 13108,
+    "DefaultEmoType": "Anger",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1310801
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1310802
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1310803
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1310804
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Anger"
+    ],
+    "MissingDialogueID": 1310805,
+    "FullDialogueID": 1310806
+  },
+  "13110": {
+    "ScriptID": 13110,
+    "DefaultEmoType": "Anger",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1311001
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1311002
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1311003
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1311004
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13111": {
+    "ScriptID": 13111,
+    "DefaultEmoType": "Sad",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1311101
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1311102
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1311103
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1311104
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13112": {
+    "ScriptID": 13112,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1311201
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1311202
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1311203
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1311204
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Peace"
+    ],
+    "MissingDialogueID": 1311205,
+    "FullDialogueID": 1311206
+  },
+  "13113": {
+    "ScriptID": 13113,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1311301
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1311302
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1311303
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1311304
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Peace"
+    ],
+    "MissingDialogueID": 1311305,
+    "FullDialogueID": 1311306
+  },
+  "13116": {
+    "ScriptID": 13116,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1311601
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1311602
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1311603
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1311604
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13117": {
+    "ScriptID": 13117,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1311701
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1311702
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1311703
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1311704
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13118": {
+    "ScriptID": 13118,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1311801
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1311802
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1311803
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1311804
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13119": {
+    "ScriptID": 13119,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1311901
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1311902
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1311903
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1311904
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13120": {
+    "ScriptID": 13120,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1312001
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1312002
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1312003
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1312004
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13121": {
+    "ScriptID": 13121,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1312101
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1312102
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1312103
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1312104
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13196": {
+    "ScriptID": 13196,
+    "DefaultEmoType": "Anger",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1319601
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1319602
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1319603
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1319604
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13197": {
+    "ScriptID": 13197,
+    "DefaultEmoType": "Happy",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1319701
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1319702
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1319703
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1319704
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13198": {
+    "ScriptID": 13198,
+    "DefaultEmoType": "Happy",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1319801
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1319802
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1319803
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1319804
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13199": {
+    "ScriptID": 13199,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1319901
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1319902
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1319903
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1319904
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13203": {
+    "ScriptID": 13203,
+    "DefaultEmoType": "Sad",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1320301
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1320302
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1320303
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1320304
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13205": {
+    "ScriptID": 13205,
+    "DefaultEmoType": "Anger",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1320501
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1320502
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1320503
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1320504
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Anger"
+    ],
+    "MissingDialogueID": 1320505,
+    "FullDialogueID": 1320506
+  },
+  "13208": {
+    "ScriptID": 13208,
+    "DefaultEmoType": "Sad",
+    "RaidID": 43310,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1320801
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1320802
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1320803
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1320804
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Lock",
+      "UnLock",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Sad"
+    ],
+    "MissingDialogueID": 1320805,
+    "LockDialogueID": 1320806,
+    "UnLockDialogueID": 1320807
+  },
+  "13210": {
+    "ScriptID": 13210,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1321001
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1321002
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1321003
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1321004
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Peace"
+    ]
+  },
+  "13212": {
+    "ScriptID": 13212,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1321201
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1321202
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1321203
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1321204
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13213": {
+    "ScriptID": 13213,
+    "DefaultEmoType": "Happy",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1321301
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1321302
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1321303
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1321304
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Happy"
+    ],
+    "MissingDialogueID": 1321305,
+    "FullDialogueID": 1321306
+  },
+  "13214": {
+    "ScriptID": 13214,
+    "DefaultEmoType": "Anger",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1321401
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1321402
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1321403
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1321404
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13215": {
+    "ScriptID": 13215,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1321501
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1321502
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1321503
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1321504
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13217": {
+    "ScriptID": 13217,
+    "DefaultEmoType": "Anger",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1321701
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1321702
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1321703
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1321704
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Anger"
+    ],
+    "MissingDialogueID": 1321705,
+    "FullDialogueID": 1321706
+  },
+  "13218": {
+    "ScriptID": 13218,
+    "DefaultEmoType": "Happy",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1321801
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1321802
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1321803
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1321804
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13221": {
+    "ScriptID": 13221,
+    "DefaultEmoType": "Happy",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1322101
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1322102
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1322103
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1322104
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Happy"
+    ],
+    "MissingDialogueID": 1322105,
+    "FullDialogueID": 1322106
+  },
+  "13222": {
+    "ScriptID": 13222,
+    "DefaultEmoType": "Happy",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1322201
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1322202
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1322203
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1322204
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13303": {
+    "ScriptID": 13303,
+    "DefaultEmoType": "Sad",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1330301
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1330302
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1330303
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1330304
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Sad"
+    ],
+    "MissingDialogueID": 1330305,
+    "FullDialogueID": 1330306
+  },
+  "13304": {
+    "ScriptID": 13304,
+    "DefaultEmoType": "Sad",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1330401
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1330402
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1330403
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1330404
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Sad"
+    ],
+    "MissingDialogueID": 1330405,
+    "FullDialogueID": 1330406
+  },
+  "13305": {
+    "ScriptID": 13305,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1330501
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1330502
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1330503
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1330504
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13306": {
+    "ScriptID": 13306,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1330601
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1330602
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1330603
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1330604
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13307": {
+    "ScriptID": 13307,
+    "DefaultEmoType": "Happy",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1330701
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1330702
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1330703
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1330704
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13308": {
+    "ScriptID": 13308,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1330801
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1330802
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1330803
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1330804
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13309": {
+    "ScriptID": 13309,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1330901
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1330902
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1330903
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1330904
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13311": {
+    "ScriptID": 13311,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1331101
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1331102
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1331103
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1331104
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13312": {
+    "ScriptID": 13312,
+    "DefaultEmoType": "Anger",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1331201
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1331202
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1331203
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1331204
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Anger"
+    ],
+    "MissingDialogueID": 1331205,
+    "FullDialogueID": 1331206
+  },
+  "13313": {
+    "ScriptID": 13313,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1331301
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1331302
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1331303
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1331304
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13314": {
+    "ScriptID": 13314,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1331401
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1331402
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1331403
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1331404
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13403": {
+    "ScriptID": 13403,
+    "DefaultEmoType": "Sad",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1340301
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1340302
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1340303
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1340304
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Sad"
+    ],
+    "MissingDialogueID": 1340305,
+    "FullDialogueID": 1340306
+  },
+  "13404": {
+    "ScriptID": 13404,
+    "DefaultEmoType": "Anger",
+    "RaidID": 43312,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1340401
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1340402
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1340403
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1340404
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Lock",
+      "UnLock",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Anger"
+    ],
+    "MissingDialogueID": 1340405,
+    "LockDialogueID": 1340406,
+    "UnLockDialogueID": 1340407
+  },
+  "13406": {
+    "ScriptID": 13406,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1340601
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1340602
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1340603
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1340604
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "20001": {
+    "ScriptID": 20001,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 2001
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 2002
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 2003
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 2004
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Peace"
+    ]
+  },
+  "20002": {
+    "ScriptID": 20002,
+    "DefaultEmoType": "Anger",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 2000201
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 2000202
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 2000203
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 2000204
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "20003": {
+    "ScriptID": 20003,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 2000301
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 2000302
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 2000303
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 2000304
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "20004": {
+    "ScriptID": 20004,
+    "DefaultEmoType": "Happy",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 2000401
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 2000402
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 2000403
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 2000404
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Happy"
+    ],
+    "MissingDialogueID": 2000405
+  },
+  "20006": {
+    "ScriptID": 20006,
+    "DefaultEmoType": "Anger",
+    "RaidID": 43313,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 2000604
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 2000605
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 2000606
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 2000607
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Lock",
+      "UnLock",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Anger"
+    ],
+    "MissingDialogueID": 2000601,
+    "LockDialogueID": 2000602,
+    "UnLockDialogueID": 2000603
+  },
+  "13211": {
+    "ScriptID": 13211,
+    "DefaultEmoType": "Happy",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1321101
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1321102
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1321103
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1321104
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Happy"
+    ],
+    "MissingDialogueID": 1321105,
+    "FullDialogueID": 1321106
+  },
+  "13428": {
+    "ScriptID": 13428,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1342801
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1342802
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1342803
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1342804
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  },
+  "13302": {
+    "ScriptID": 13302,
+    "DefaultEmoType": "Happy",
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1330201
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1330202
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1330203
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1330204
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Happy"
+    ],
+    "MissingDialogueID": 1330205,
+    "FullDialogueID": 1330206
+  },
+  "13109": {
+    "ScriptID": 13109,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 1310901
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 1310902
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 1310903
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 1310904
+      }
+    ],
+    "StepList": [
+      "Missing",
+      "Full",
+      "Normal"
+    ],
+    "MissingEmoList": [
+      "Peace"
+    ],
+    "MissingDialogueID": 1310905,
+    "FullDialogueID": 1310906
+  },
+  "131991": {
+    "ScriptID": 131991,
+    "TotalEmoInfoList": [
+      {
+        "FBLLOPNAKIK": 13199101
+      },
+      {
+        "LDLIAEKGHJH": "Anger",
+        "FBLLOPNAKIK": 13199102
+      },
+      {
+        "LDLIAEKGHJH": "Sad",
+        "FBLLOPNAKIK": 13199103
+      },
+      {
+        "LDLIAEKGHJH": "Happy",
+        "FBLLOPNAKIK": 13199104
+      }
+    ],
+    "StepList": [
+      "Normal"
+    ],
+    "MissingEmoList": []
+  }
+}
