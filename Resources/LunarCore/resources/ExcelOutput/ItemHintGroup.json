@@ -1,0 +1,30 @@
+{
+  "Mission": {
+    "EHIDPBDBPOG": "Mission",
+    "LBDHMCJIGKI": "NotNormal"
+  },
+  "Equipment": {
+    "EHIDPBDBPOG": "Equipment",
+    "LBDHMCJIGKI": "Rare"
+  },
+  "Relic": {
+    "EHIDPBDBPOG": "Relic",
+    "LBDHMCJIGKI": "VeryRare"
+  },
+  "HeadIcon": {
+    "EHIDPBDBPOG": "HeadIcon",
+    "LBDHMCJIGKI": "NotNormal"
+  },
+  "MusicAlbum": {
+    "EHIDPBDBPOG": "MusicAlbum",
+    "LBDHMCJIGKI": "Rare"
+  },
+  "ChatBubble": {
+    "EHIDPBDBPOG": "ChatBubble",
+    "LBDHMCJIGKI": "VeryRare"
+  },
+  "PhoneTheme": {
+    "EHIDPBDBPOG": "PhoneTheme",
+    "LBDHMCJIGKI": "VeryRare"
+  }
+}
