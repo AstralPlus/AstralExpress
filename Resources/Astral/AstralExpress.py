@@ -4,26 +4,6 @@ import subprocess
 import configparser
 import os
 import time
-from pypresence import Presence
-from pypresence.exceptions import DiscordNotFound
-
-rpc = Presence(client_id="1200190629897052181")
-
-def update_discord_rpc(*args):
-    if discord_rpc.get():
-        try:
-            rpc.connect()
-            rpc.update(
-                large_image="plus",
-                details="Space anime game server tool",
-                buttons=[
-                    {"label": "Github", "url": "https://github.com/AstralPlus/AstralExpress"}
-                ]
-            )
-        except DiscordNotFound:
-            pass
-    else:
-        rpc.clear()
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 app = CTk()
@@ -41,7 +21,6 @@ tabview.add("Settings")
 
 launch_game = tk.BooleanVar()
 game_path = tk.StringVar()
-close_game_on_exit = tk.BooleanVar()
 launch_delay = tk.IntVar()
 script_dir = os.path.dirname(os.path.realpath(__file__))
 lunarcore_dir = os.path.join(script_dir, "..", "LunarCore")
@@ -92,7 +71,6 @@ def update_button_text(*args):
 
 launch_game.trace_add("write", update_button_text)
 game_path.trace_add("write", update_button_text)
-discord_rpc = tk.BooleanVar(value=True)
 
 label1 = CTkLabel(master=tabview.tab("Settings"), text="Launch game with server")
 label1.grid(row=0, column=0, sticky='w', padx=10, pady=10)
@@ -103,11 +81,6 @@ label2 = CTkLabel(master=tabview.tab("Settings"), text="Game Path")
 label2.grid(row=1, column=0, sticky='w', padx=10, pady=0)
 textbox = CTkEntry(master=tabview.tab("Settings"), textvariable=game_path)
 textbox.grid(row=1, column=1, sticky='e', padx=10, pady=0)
-
-label3 = CTkLabel(master=tabview.tab("Settings"), text="Discord RPC")
-label3.grid(row=3, column=0, sticky='w', padx=10, pady=10)
-checkbox_discord_rpc = CTkCheckBox(master=tabview.tab("Settings"), text="", variable=discord_rpc)
-checkbox_discord_rpc.grid(row=3, column=1, sticky='e', padx=10, pady=10)
 
 slider_label_text = tk.StringVar()
 
@@ -139,15 +112,12 @@ launch_game.trace_add("write", update_game_path_visibility)
 def save_settings():
     config = configparser.ConfigParser()
     config['DEFAULT'] = {'LaunchGame': launch_game.get(),
-                         'CloseGameOnExit': close_game_on_exit.get(),
                          'GamePath': game_path.get().replace("\\", "\\\\"),
-                         'LaunchDelay': launch_delay.get(),
-                         'DiscordRPC': discord_rpc.get()}
+                         'LaunchDelay': launch_delay.get()}
     script_dir = os.path.dirname(os.path.realpath(__file__))
     settings_path = os.path.join(script_dir, 'settings.ini')
     with open(settings_path, 'w') as configfile:
         config.write(configfile)
-    update_discord_rpc()
 
 save_button = CTkButton(master=tabview.tab("Settings"), text="Save Settings", command=save_settings)
 save_button.grid(row=4, column=0, columnspan=2, padx=10, pady=10)
@@ -158,12 +128,9 @@ settings_path = os.path.join(script_dir, 'settings.ini')
 config.read(settings_path)
 if 'DEFAULT' in config:
     launch_game.set(config['DEFAULT'].getboolean('LaunchGame', False))
-    close_game_on_exit.set(config['DEFAULT'].getboolean('CloseGameOnExit', False))
     game_path.set(config['DEFAULT'].get('GamePath', ''))
     launch_delay.set(config['DEFAULT'].getint('LaunchDelay', 5))
-    discord_rpc.set(config['DEFAULT'].getboolean('DiscordRPC', True))
 
-update_discord_rpc()
 update_button_text()
 update_game_path_visibility()
 
